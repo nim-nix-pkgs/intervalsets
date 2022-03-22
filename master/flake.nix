@@ -1,5 +1,5 @@
 {
-  description = ''Set implementation of disjoint intervals'';
+  description = ''A set implementation operating over ranges (Slices)'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,7 +9,7 @@
   
   inputs.src-intervalsets-master.flake = false;
   inputs.src-intervalsets-master.owner = "autumngray";
-  inputs.src-intervalsets-master.ref   = "refs/heads/master";
+  inputs.src-intervalsets-master.ref   = "master";
   inputs.src-intervalsets-master.repo  = "intervalsets";
   inputs.src-intervalsets-master.type  = "github";
   
