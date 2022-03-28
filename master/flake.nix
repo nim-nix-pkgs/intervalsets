@@ -11,7 +11,6 @@
   inputs.src-intervalsets-master.ref   = "refs/heads/master";
   inputs.src-intervalsets-master.owner = "autumngray";
   inputs.src-intervalsets-master.repo  = "intervalsets";
-  inputs.src-intervalsets-master.dir   = "";
   inputs.src-intervalsets-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
